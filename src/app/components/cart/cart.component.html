@@ -1,0 +1,5 @@
+<div class="terminal">
+    <div *ngFor="let item of list; let i = index">
+        <pre (click)="remove(i)">{{i + 1}}.{{item}}</pre>
+    </div>
+</div>
